@@ -11499,7 +11499,7 @@ body {
   outline: none;
   background-color: transparent;
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
@@ -11543,9 +11543,6 @@ body {
     color: #64a19d;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
-  }
-  .masthead {
-    padding-top: 0;
   }
 }
 
