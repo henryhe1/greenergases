@@ -11499,7 +11499,7 @@ body {
   outline: none;
   background-color: transparent;
 }
-@media (min-width: 0px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
@@ -11556,35 +11556,27 @@ body {
   border: 0;
 }
 
-img{
+.masthead {
+  position: relative;
   width: 100%;
   height: auto;
-}
-.masthead {
-  
-  width: 100%;
-    
   min-height: 35rem;
-  width: 100%;
-  height: 100%;
-  
-/*  padding: 15rem 0;
-  padding-top: 3.5rem;*/
-  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/infographic.jpg");
-  */
-  
-/*  background-position: center;
+  padding: 15rem 0;
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");*/
+  background: url("../assets/img/masthead-clouds-blue.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: auto 100%;*/
+  background-size: cover;
 }
-
 .masthead h1, .masthead .h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/*  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+*/  
+  font-family:  "Baloo";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: white;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11592,6 +11584,8 @@ img{
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
   font-size: 1rem;
+  -webkit-text-fill-color: yellow;
+
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11599,7 +11593,7 @@ img{
     line-height: 4rem;
   }
 }
-/*@media (min-width: 992px) {
+@media (min-width: 992px) {
   .masthead {
     height: 100vh;
     padding: 0;
@@ -11613,16 +11607,14 @@ img{
     max-width: 30rem;
     font-size: 1.25rem;
   }
-}*/
+}
 
 .about-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .projects-section {
